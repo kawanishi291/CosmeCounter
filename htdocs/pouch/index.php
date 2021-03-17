@@ -48,7 +48,12 @@ include '../transaction/flag_2.php';
                     include '../dbconnect/pdo_connect.php';
 //                    $sql = "SELECT * FROM item_list ORDER BY genre";
                     $sql = "SELECT DISTINCT item_list.item_name, item_list.genre_img FROM item_list JOIN pouch ON item_list.item_name = pouch.genre WHERE pouch.user_id = {$_SESSION['user_id']} AND pouch.flag NOT IN (1) ORDER BY item_list.genre";
+                // try {
                     $stmt = $pdo -> query($sql);
+                // } catch( Exception $ex ) {
+
+                // }
+                    
                     foreach($stmt as $row){
                 ?>
             <li>

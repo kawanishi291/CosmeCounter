@@ -1,6 +1,6 @@
 <?php
 //データベースの接続と選択
-$host = "2ebfe18cb345";
+$host = "mysqlのコンテナID";
 $username = "root";
 $password = "password";
 $dbname = "sample_db";

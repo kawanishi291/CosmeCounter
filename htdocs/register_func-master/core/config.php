@@ -1,5 +1,5 @@
 <?php
-$host = "2ebfe18cb345";
+$host = "mysqlのコンテナID";
 $username = "root";
 $password = "password";
 $dbname = "sample_db";
