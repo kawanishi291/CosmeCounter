@@ -81,7 +81,7 @@ root/
 　├ mysql/
 　│  ├ db/
 　│  │  └ init.sql
-　│  └ mysql.cnf
+　│  └ my.cnf
 　└ docker-compose.yml
 ```
 
